@@ -1,2 +1,2 @@
 # cv
-curriculum vitae
+[curriculum vitae](https://ericwang6272.github.io/cv/)
