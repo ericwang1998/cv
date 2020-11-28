@@ -1,3 +1,156 @@
-﻿body {
-    background-color:aquamarine
+﻿* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    text-align: center;
+    background-color: #9ad3bc;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 5rem;
+    color: #fcf876;
+}
+
+h3 {
+    color: #321f28;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h5 {
+    color: #321f28;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size:1rem;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+hr {
+    border-color: #3797a4;
+    border-style: dotted;
+    border-width: 0.75em 0 0;
+    max-width: 20%;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+.contactlink {
+    background-color: #f5b461;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    margin: 50px auto 0 auto;
+    padding: 20px 20px;
+    width: 17.5%;
+}
+
+/* Segments*/
+.welcome_msg {
+    position: relative;
+}
+
+.welcome {
+    height: 100%;
+    position: relative;
+    padding-top: 50px;
+}
+
+.introduction {
+    margin: 100px auto 100px auto;
+}
+
+.place {
+    margin:100px auto 100px auto;
+}
+
+.skill_tree {
+    margin:0 0 200px 0;
+}
+
+.skill_row{
+    width:50%;
+    height:auto;
+    text-align:left;
+    margin:50px auto 100px auto;
+    padding:50px 0 0 0;
+    line-height:200%;
+}
+
+.Contact {
+    margin: 50px auto 50px auto;
+}
+
+.bottom-container{
+    margin-top:50px;
+}
+/*Individual elements*/
+.castle {
+    max-width: 50%;
+    height: auto;
+}
+
+.icon_1 {
+    max-width: 30%;
+    height: auto;
+    position:relative;
+    top:20px;
+    margin-top:30px;
+}
+
+.cloud_1 {
+    left: 10%;
+    max-width:70%;
+    height:auto;
+    position: absolute;
+}
+
+.cloud_2 {
+    right: 10%;
+    max-width: 70%;
+    height: auto;
+    position: absolute;
+}
+
+.tower {
+    max-width: 50%;
+    height: auto;
+    margin-top:30px;
+}
+
+
+
+/*Triple icons*/
+.img_py{
+    width:30%;
+    height: auto;
+    float:left;
+    margin-right:30px;
+}
+
+.img_js {
+    width: 30%;
+    height: auto;
+    float:right;
+    margin-left:30px;
+}
+
+.img_wd {
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-right: 30px;
 }
