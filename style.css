@@ -95,8 +95,15 @@ hr {
 }
 
 .bottom-container{
-    margin-top:50px;
+    padding:35px 0 35px 0;
+    background-color: #11999E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #EAF6F6;
 }
+
+
+
 /*Individual elements*/
 .castle {
     max-width: 50%;
@@ -153,4 +160,20 @@ hr {
     height: auto;
     float: left;
     margin-right: 30px;
+}
+
+.citation {
+    font-family: 'Raleway', sans-serif;
+    font-size:1rem;
+    padding-bottom: 10px;
+}
+
+.copyright{
+    padding: 10px 0 0 0;
+}
+
+.footer-link {
+    font-family: 'Raleway', sans-serif;
+    font-size:1rem;
+    margin: 20px 20px 20px 20px;
 }
